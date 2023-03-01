@@ -54,6 +54,6 @@ class Pet implements Comparable<Pet>{
 
     @Override
     public int compareTo(Pet o) {
-        return (int) (this.weight - o.weight);
+        return (int) (this.weight - o.weight);  //do
     }
 }

@@ -4,6 +4,6 @@ public class ComparatorNameLength implements Comparator<Pet> {
 
     @Override
     public int compare(Pet o1, Pet o2) {
-        return o2.getName().length() - o1.getName().length();
+        return o2.getName().length() - o1.getName().length();  //do
     }
 }

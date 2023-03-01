@@ -16,7 +16,7 @@ public class Main {
         System.out.println(petList);
 
         System.out.println("\nСортировка по длине клички:");
-        Collections.sort(petList, new ComparatorNameLength());
+        Collections.sort(petList, new ComparatorNameLength());  // do
         System.out.println(petList);
 
         Set<Pet> petSet = new TreeSet<>(petList);
